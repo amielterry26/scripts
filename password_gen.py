@@ -3,9 +3,9 @@
 import random
 import string
 
-length = random.randint(8, 15)
-password = ''.join(random.choices(string.punctuation + string.hexdigits, k=length))
+length = random.randint(15, 35)
+password = ''.join(random.choices(string.hexdigits + string.punctuation + string.ascii_letters, k=length))
 
 print(password)
-print(f"Your password is {length} characters.")
+# print(f"Your password is {length} characters.")
 
