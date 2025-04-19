@@ -8,4 +8,3 @@ password = ''.join(random.choices(string.hexdigits + string.punctuation + string
 
 print(password)
 # print(f"Your password is {length} characters.")
-
